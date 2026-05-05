@@ -84,7 +84,7 @@ public class Dws_TC_01Test extends BaseClass {
 		WebElement order = wutil.single(driver,"//h3[text()='Information']");
 		
 		wutil.ScrollToElement(driver, order);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		wutil.getPhoto(driver);
 		
 	}
